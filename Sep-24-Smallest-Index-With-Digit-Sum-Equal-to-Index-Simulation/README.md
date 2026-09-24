@@ -69,51 +69,42 @@ Index (i)   nums[i]   Digits Processed        Digit Sum   Condition (Sum == i)  
 
 ---
 
-## 💻 Code Implementations
+# Code
 
-### Python 3
+```c++ []
+class Solution {
+public:
+    int smallestIndex(vector<int>& nums) {
+        for (int i = 0; i < nums.size(); ++i) {
+            int x = nums[i];
+            int total = 0;
 
-```python
-from typing import List
+            while (x > 0) {
+                total += x % 10;
+                x /= 10;
+            }
 
-class Solution:
-    def smallestIndex(self, nums: List[int]) -> int:
-        """
-        Finds the smallest index i such that the sum of decimal digits of nums[i] equals i.
-        Returns -1 if no such index exists.
-        """
-        for i, val in enumerate(nums):
-            # Compute digit sum using arithmetic division
-            digit_sum = 0
-            temp = val
-            while temp > 0:
-                digit_sum += temp % 10
-                temp //= 10
-            
-            # Left-to-right iteration guarantees the first match is the smallest index
-            if digit_sum == i:
-                return i
-                
-        return -1
+            if (total == i) {
+                return i;
+            }
+        }
+        return -1;
+    }
+};
 ```
-
-### Java
-
-```java
+```java []
 class Solution {
     public int smallestIndex(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            int digitSum = 0;
-            int temp = nums[i];
+            int x = nums[i];
+            int total = 0;
 
-            // Extract each digit using modulo 10 and division
-            while (temp > 0) {
-                digitSum += temp % 10;
-                temp /= 10;
+            while (x > 0) {
+                total += x % 10;
+                x /= 10;
             }
 
-            // Return the first index that satisfies the condition
-            if (digitSum == i) {
+            if (total == i) {
                 return i;
             }
         }
@@ -121,43 +112,19 @@ class Solution {
     }
 }
 ```
+```python []
+class Solution:
+    def smallestIndex(self, nums: List[int]) -> int:
+        for i in range(len(nums)):
+            x = nums[i]
+            total = 0
 
-### C++
+            while x > 0:
+                total += x % 10
+                x //= 10
 
-```cpp
-#include <vector>
-#include <iostream>
+            if total == i:
+                return i
 
-using namespace std;
-
-class Solution {
-public:
-    int smallestIndex(vector<int>& nums) {
-        // Fast I/O
-        static const auto fast = []() {
-            ios_base::sync_with_stdio(false);
-            cin.tie(NULL);
-            return 0;
-        }();
-        (void)fast;
-
-        int n = static_cast<int>(nums.size());
-        for (int i = 0; i < n; ++i) {
-            int digit_sum = 0;
-            int temp = nums[i];
-
-            // Extract decimal digits
-            while (temp > 0) {
-                digit_sum += temp % 10;
-                temp /= 10;
-            }
-
-            // Smallest index is guaranteed by the left-to-right scan
-            if (digit_sum == i) {
-                return i;
-            }
-        }
-        return -1;
-    }
-};
+        return -1
 ```

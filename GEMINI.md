@@ -95,33 +95,28 @@ Step 2: [visual state]
 
 ---
 
-## 💻 Code Implementations
+# Code
 
-### Python 3
-\`\`\`python
-class Solution:
-    def solve(self, ...):
-        # Implementation with concise comments
-        pass
-\`\`\`
-
-### Java
-\`\`\`java
-class Solution {
-    public ... solve(...) {
-        // Implementation with concise comments
-    }
-}
-\`\`\`
-
-### C++
-\`\`\`cpp
+\`\`\`c++ []
 class Solution {
 public:
     ... solve(...) {
-        // Implementation with concise comments
+        // Implementation
     }
 };
+\`\`\`
+\`\`\`java []
+class Solution {
+    public ... solve(...) {
+        // Implementation
+    }
+}
+\`\`\`
+\`\`\`python []
+class Solution:
+    def solve(self, ...):
+        # Implementation
+        pass
 \`\`\`
 ```
 
