@@ -10,13 +10,18 @@ Solutions are also published on the LeetCode Solutions community.
 
 | Date | Problem | Difficulty | Category / Topic | Solutions |
 | :--- | :--- | :---: | :--- | :---: |
-| *e.g. Sep 24* | *[Sample Problem Name](./)* | `Medium` | *Trie / Prefix* | [Solution](./) |
-
-*(Tracker will be updated daily with each new POTD solve)*
+| Sep 24, 2026 | [Smallest Index With Digit Sum Equal to Index](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) | `Easy` | Simulation / Array | [Python, Java, C++](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) |
 
 ---
 
 ## 🏷️ Problems by Topic / Category
+
+<details open>
+<summary><b>🔢 Math & Simulation</b></summary>
+
+- [Smallest Index With Digit Sum Equal to Index](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) (`Easy`) — *Sep 24, 2026*
+
+</details>
 
 <details>
 <summary><b>📚 Dynamic Programming</b></summary>
