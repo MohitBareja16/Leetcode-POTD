@@ -45,6 +45,7 @@ When working together on each daily POTD:
    - Generates the visual explanation (ASCII walkthrough/diagram).
    - Generates clean, idiomatic solutions with comments in `solution.py`, `Solution.java`, and `solution.cpp`.
    - Generates the polished `README.md` formatted for instant copy-pasting to LeetCode Solutions.
+   - **Title Generation**: The agent MUST automatically generate 3-4 catchy, high-quality LeetCode post title options (highlighting time/space complexity, intuition, and supported languages) and present them to the user in the chat response.
 4. **Tracker & Git Commit**:
    - Updates the root `README.md` tracker table (and Topic index).
    - Provides the one-line `git add`, `git commit`, and `git push` commands.
