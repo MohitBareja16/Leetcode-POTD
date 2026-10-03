@@ -10,11 +10,19 @@ Solutions are also published on the LeetCode Solutions community.
 
 | Date | Problem | Difficulty | Category / Topic | Solutions |
 | :--- | :--- | :---: | :--- | :---: |
+| Oct 03, 2026 | [Longest Valid Parentheses](./Oct-03-Longest-Valid-Parentheses-Stack/) | `Hard` | Stack / Two Pointers | [Python, Java, C++](./Oct-03-Longest-Valid-Parentheses-Stack/) |
 | Sep 24, 2026 | [Smallest Index With Digit Sum Equal to Index](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) | `Easy` | Simulation / Array | [Python, Java, C++](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) |
 
 ---
 
 ## 🏷️ Problems by Topic / Category
+
+<details open>
+<summary><b>🥞 Stack & Two Pointers</b></summary>
+
+- [Longest Valid Parentheses](./Oct-03-Longest-Valid-Parentheses-Stack/) (`Hard`) — *Oct 03, 2026*
+
+</details>
 
 <details open>
 <summary><b>🔢 Math & Simulation</b></summary>
