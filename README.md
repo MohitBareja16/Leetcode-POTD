@@ -10,6 +10,7 @@ Solutions are also published on the LeetCode Solutions community.
 
 | Date | Problem | Difficulty | Category / Topic | Solutions |
 | :--- | :--- | :---: | :--- | :---: |
+| Oct 04, 2026 | [Valid Parenthesis String](./Oct-04-Valid-Parenthesis-String-Greedy/) | `Medium` | Greedy / String / Stack | [Python, Java, C++](./Oct-04-Valid-Parenthesis-String-Greedy/) |
 | Oct 03, 2026 | [Longest Valid Parentheses](./Oct-03-Longest-Valid-Parentheses-Stack/) | `Hard` | Stack / Two Pointers | [Python, Java, C++](./Oct-03-Longest-Valid-Parentheses-Stack/) |
 | Sep 24, 2026 | [Smallest Index With Digit Sum Equal to Index](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) | `Easy` | Simulation / Array | [Python, Java, C++](./Sep-24-Smallest-Index-With-Digit-Sum-Equal-to-Index-Simulation/) |
 
@@ -20,6 +21,7 @@ Solutions are also published on the LeetCode Solutions community.
 <details open>
 <summary><b>🥞 Stack & Two Pointers</b></summary>
 
+- [Valid Parenthesis String](./Oct-04-Valid-Parenthesis-String-Greedy/) (`Medium`) — *Oct 04, 2026*
 - [Longest Valid Parentheses](./Oct-03-Longest-Valid-Parentheses-Stack/) (`Hard`) — *Oct 03, 2026*
 
 </details>
